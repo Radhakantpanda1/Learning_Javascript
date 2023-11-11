@@ -1,0 +1,6 @@
+Some rules which we follow while writting code in JS is called syntax.
+
+The variable of JS can be changed during runtime/ execution of programme
+let userName="Radhakant";
+
+These are memory spaces which is used to hold a value.
