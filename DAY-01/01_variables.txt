@@ -13,3 +13,8 @@ let can be updated but can't be redeclared
 const can neither be redeclared nor be updated.
 
 ** const must be initialised during declaration **
+
+********************************* Practice Question********************************************
+1. Create a variable of type string and try to add a number to it.
+2.Use typeof operator to find the data type of above question.
+3.
