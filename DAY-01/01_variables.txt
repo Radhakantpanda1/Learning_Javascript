@@ -4,3 +4,12 @@ The variable of JS can be changed during runtime/ execution of programme
 let userName="Radhakant";
 
 These are memory spaces which is used to hold a value.
+
+
+**************************** let const and var ********************************************
+var is globally scoped while let and const are block scoped
+var can be updated and re-declared
+let can be updated but can't be redeclared
+const can neither be redeclared nor be updated.
+
+** const must be initialised during declaration **
