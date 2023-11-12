@@ -1,0 +1,11 @@
+switch case in JS
+
+The switch statement evaluates an expression, matching the expression's value against a series of case clauses, and executes statements after the first case clause with a matching value, until a break statement is encountered. The default clause of a switch statement will be jumped to if no case matches the expression's value.
+
+Breaking and fall-through
+You can use the break statement within a switch statement's body to break out early, often when all statements between two case clauses have been executed. Execution will continue at the first statement following switch.
+
+If break is omitted, execution will proceed to the next case clause, even to the default clause, regardless of whether the value of that clause matches. This behavior is called "fall-through".
+
+default case-
+A default clause; if provided, this clause is executed if the value of expression doesn't match any of the case clauses. A switch statement can only have one default clause.
