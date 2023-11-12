@@ -1,0 +1,28 @@
+Conditional - execution of a block of code based on the condition 
+In JS we have 3 types if if... else statements
+1.if(condition){
+    // code to be executef if condition is true.
+}
+2.if(condition){
+    // gets executes if condition is true.
+}
+else{
+  // gets executed if condition is false.
+}
+
+3. if else if
+
+if(condition){
+    // gets executes if condition is true.
+}
+else if(condition){
+    // other set of codes
+}
+else{
+  // gets executed if condition is false.
+}
+
+
+ternary operator-
+Evaluates a condition and executes a block of code.
+conditiion ? exp1:exp2 ;
