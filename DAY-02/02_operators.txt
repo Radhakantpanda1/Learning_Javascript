@@ -36,3 +36,9 @@
 1. &&
 2. ||
 3. !
+
+**************** Question *****************************
+1.Print whether you can drive or you can't drive based on age is <18 or >18 .
+2.Use logical operators to find whether the age of a person lied between 10 and 20 or not.
+3.Write a javascript program to find whether a number is divisible by both 2 and 3.
+4.Write a javascript program to find whether a number is divisible by either 2 or 3.
