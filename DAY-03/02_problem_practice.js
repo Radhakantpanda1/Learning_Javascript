@@ -15,6 +15,12 @@ let userData={
 }
 for (const key in userData) {
     console.log(`${key}:${userData[key]}`);
+    /*
+    userName:Radhakant Panda
+userAge:21
+userId:radhakant&gooytb
+userGender:male
+*/
 }
 
 
@@ -22,5 +28,11 @@ for (const key in userData) {
 const superHero=["Ironman","Spiderman","Thor","Superman"];
 for (const i of superHero) {
     console.log(i);
+    /*
+    Ironman
+Spiderman
+Thor
+Superman
+*/
 }
 
