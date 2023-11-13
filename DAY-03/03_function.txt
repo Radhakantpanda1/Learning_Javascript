@@ -1,0 +1,32 @@
+Function-
+
+A function is a set of statements that take inputs, do some specific computation, and produce output. The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can call that function. 
+
+syntax-
+function functionName(Parameter1, Parameter2, ...)
+{
+    // Function body
+}
+
+function name(params) {
+    
+}
+
+
+**************************************** ARROW FUNCTION ***********************************************
+Arrow function-
+
+It is one of the most used and efficient methods to create a function in JavaScript because of its comparatively easy implementation. It is a simplified as well as a more compact version of a regular or normal function expression or syntax.
+
+syntax-
+let function_name = (argument1, argument2 ,..) => expression
+
+******************************** PARAMETERS ************************************************
+Function Parameters: Parameters are additional information passed to a function. The parameters are passed to the function within parentheses after the function name and separated by commas. A function in JavaScript can have any number of parameters and also at the same time, a function in JavaScript can not have a single parameter.
+
+
+************************************ cALLING FUNCTION ***************************************************
+
+Calling Functions: After defining a function, the next step is to call them to make use of the function. We can call a function by using the function name separated by the value of parameters enclosed between the parenthesis and a semicolon at the end. The below syntax shows how to call functions in JavaScript:
+functionName( Value1, Value2, ..);
+
