@@ -1,0 +1,39 @@
+loops are used to perform a repitive task
+In JS we have 
+1 for loop
+2.for in loop - loop through keys of an objects
+3.for of loop -  loop through values of an object 
+4.while loop 
+do-while loop 
+
+
+***************************************************************************************************************************
+
+for loop--A for loop repeats until a specified condition evaluates to false
+
+for(initilization ; condition ; updation){
+    // code
+}
+When a for loop executes, the following occurs:
+
+step-01  The initializing expression initialization, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+
+step-02 The condition expression is evaluated. If the value of condition is true, the loop statements execute. Otherwise, the for loop terminates. (If the condition expression is omitted entirely, the condition is assumed to be true.)
+
+step-03 The statement executes. To execute multiple statements, use a block statement ({ }) to group those statements.
+
+step-04 If present, the update expression afterthought is executed.
+Control returns to Step 2.
+
+
+for...of statement
+
+The for...of statement creates a loop Iterating over iterable objects (including Array, Map, Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+
+for (..of) loop: 
+This for (..of) statement lets you loop over the data structures that are iterable such as Arrays, Strings, Maps, Node Lists, and more. It calls a custom iteration hook with instructions to execute on the value of each property of the object.
+
+
+
+for (..in) loop:
+ The JavaScript for (..in) statement loops through the enumerable properties of an object. The loop will iterate over all enumerable properties of the object itself and those the object inherits from its constructor’s prototype.
