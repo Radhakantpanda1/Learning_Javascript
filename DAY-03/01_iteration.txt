@@ -26,14 +26,48 @@ step-04 If present, the update expression afterthought is executed.
 Control returns to Step 2.
 
 
-for...of statement
+***********************************************for...of statement****************************************
 
 The for...of statement creates a loop Iterating over iterable objects (including Array, Map, Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
 for (..of) loop: 
 This for (..of) statement lets you loop over the data structures that are iterable such as Arrays, Strings, Maps, Node Lists, and more. It calls a custom iteration hook with instructions to execute on the value of each property of the object.
 
+The for…of loop iterates over the iterable objects (like Array, Map, Set, arguments object, …,etc), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
 
-for (..in) loop:
- The JavaScript for (..in) statement loops through the enumerable properties of an object. The loop will iterate over all enumerable properties of the object itself and those the object inherits from its constructor’s prototype.
+
+****************************************for (..in) loop:*******************************************
+
+ **) The JavaScript for (..in) statement loops through the enumerable properties of an object. The loop will iterate over all enumerable properties of the object itself and those the object inherits from its constructor’s prototype.
+ **) The for/in loop can also be used over the properties of arrays. However, it is not advised to use for/in loop over arrays.  for/of and Array.forEach() loops are suggested to be used while working with arrays.
+
+ Important Points
+Use the for-in loop to iterate over non-array objects. Even though we can use a for-in loop for an array, it is generally not recommended. Instead, use a for loop for looping over an array.
+The properties iterated with the for-in loop also include the properties of the objects higher in the Prototype chain.
+The order in which properties are iterated may not match the properties that are defined in the object.
+
+**********************************************************************************************************************
+
+ Entry Controlled loops: In this type of loop, the test condition is tested before entering the loop body. For Loop and While Loops are entry-controlled loops.
+
+Exit Controlled Loops: In this type of loop the test condition is tested or evaluated at the end of the loop body. Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. the do-while loop is exit controlled loop.
+
+**********************************************************while loop *******************************************************
+
+while (condition) {
+    // Statements
+}
+
+******************************************do while loop **********************************
+
+do {
+    // Statements
+}
+while(conditions)
+
+A do… while loop in JavaScript is a control statement in which the code is allowed to execute continuously based on a given boolean condition. It is like a repeating if statement.
+
+The do…while loop can be used to execute a specific block of code at least once
+
+The main difference between do…while and while loop is that it is guaranteed that do…while loop will run at least once. Whereas, the while loop will not run even once if the given condition is not satisfied
