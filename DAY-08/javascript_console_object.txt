@@ -1,0 +1,9 @@
+javascript console object-
+
+console.log() // clears the console
+console.table() // displays the output in tabular structure
+console.warn() // displays the warning
+console.error()// shows the error 
+console.info()
+console.time()
+console.timeEnd()
